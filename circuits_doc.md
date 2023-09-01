@@ -8,13 +8,13 @@ The Netbox Circuits API provides a set of endpoints to manage and retrieve infor
 - **GET /circuits/_choices/**  
   - Description: Retrieve choices for circuits.
   - Parameters: None
-  - Response: JSON [Reference](#json-structures-reference)
-
+  - Response: JSON
+  - 
 - **GET /circuits/_choices/{id}/**  
   - Description: Read choices for circuits based on ID.
   - Parameters:
     - id: string (path)
-  - Response: JSON [Reference](#json-structures-reference)
+  - Response: JSON 
 
 - **GET /circuits/circuit-terminations/**  
   - Description: List circuit terminations.
